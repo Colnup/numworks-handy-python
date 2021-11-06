@@ -65,6 +65,7 @@ def multiples_139():
     for i in range(1000):  # On parcourt les chiffres de 0 à 999
         if i//100 == 9:  # Si le premier chiffre est égal à 9
             if (i % 100)//10 == 1 or (i % 100)//10 == 7:  # Si le second chiffre est égal à 1 ou 7
+                # explications : on divise i par 100 pour avoir le premier chiffre, puis on divise le reste par 10 pour avoir le second chiffre
                 if i % 139 == 0:  # Si le reste de la division par 139 est égal à 0
                     print(i)  # On affiche i
 
