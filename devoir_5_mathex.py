@@ -61,8 +61,6 @@ colone_b()
 print("-----" * 3)  # On affiche un séparateur entre les fonctions
 
 # fonction qui trouve tous les multiples de 139 de trois chiffres, dont le premier chiffre est 9 et le deuxième est soit 1, soit 7
-
-
 def ligne_3():
     for i in range(1000):  # On parcourt les chiffres de 0 à 999
         if i//100 == 9:  # Si le premier chiffre est égal à 9
