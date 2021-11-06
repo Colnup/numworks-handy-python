@@ -5,11 +5,9 @@ Devoir 5 de maths Expertes
 # -----
 # On définit ici les fonctions qui nous aideront à résoudre le reste de l'énnoncé
 
-
 def diviseurs(n):
     """fonction qui renvoie la liste des diviseurs d'un nombre"""
     return [i for i in range(1, n + 1) if n % i == 0]
-
 
 def est_premier(n):
     """fonction qui teste si un nombre est premier, basée sur son nombre de diviseurs"""
