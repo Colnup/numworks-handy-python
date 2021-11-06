@@ -71,4 +71,4 @@ def multiples_139():
 
 multiples_139()
 
-print("-----" * 3)  # On affiche un séparateur entre les fonctions
+print("-----" * 3)  # On affiche un séparateur final pour montrer que tout s'est bien passé
