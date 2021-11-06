@@ -69,6 +69,6 @@ def ligne_3():
                 if i % 139 == 0:  # Si le reste de la division par 139 est égal à 0
                     print(i)  # On affiche i
 
-multiples_139()
+ligne_3()
 
 print("-----" * 3)  # On affiche un séparateur final pour montrer que tout s'est bien passé
