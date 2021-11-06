@@ -51,10 +51,12 @@ print("-----" * 3)  # On affiche un séparateur entre les fonctions
 # commençant par le chiffre 6 et finissant par le chiffre 4
 def colone_b():
     for i in range(10000):  # On parcourt les chiffres de 0 à 9999
-        if i//100 == 6:  # Si le premier chiffre est égal à 6
+        if i//1000 == 6:  # Si le premier chiffre est égal à 6
             if i % 11 == 0:  # Si le reste de la division par 11 est égal à 0
-                print(i)  # On affiche i
+                if i % 10 == 4:  # Si le dernier chiffre est égal à 4
+                    print(i)  # On affiche i
 
 colone_b()
 
 print("-----" * 3)  # On affiche un séparateur entre les fonctions
+
