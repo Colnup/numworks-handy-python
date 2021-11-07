@@ -2,6 +2,19 @@
 Devoir 5 de maths Expertes
 """
 
+# EXERCICE 1
+# On trouve tous les couples (x, y) tels que x+3y % 10 = 6
+
+def test():
+    for x in range(10):  # On parcourt les chiffres de 0 à 9
+        for y in range(10):  # On parcourt les chiffres de 0 à 9
+            if (x + 3 * y) % 10 == 6:  # Si le reste de la division par 10 est égal à 6
+                print(x, y)
+
+test()
+
+
+# EXERCICE 2
 # -----
 # On définit ici les fonctions qui nous aideront à résoudre le reste de l'énnoncé
 
