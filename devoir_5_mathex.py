@@ -4,7 +4,7 @@ Devoir 5 de maths Expertes
 
 # EXERCICE 1
 
-# On trouve tous les couples (x, y) tels que x+3y % 10 = 6
+# On trouve tous les couples (x, y) tels que le reste de la division de x+3y par 10 est 6
 def test():
     for x in range(10):  # On parcourt les chiffres de 0 à 9
         for y in range(10):  # On parcourt les chiffres de 0 à 9
