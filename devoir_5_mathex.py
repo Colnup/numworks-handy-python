@@ -19,7 +19,8 @@ test()
 # On définit ici les fonctions qui nous aideront à résoudre le reste de l'énnoncé
 
 def diviseurs(n):
-    """fonction qui renvoie la liste des diviseurs d'un nombre"""
+    """fonction qui renvoie la liste des diviseurs d'un nombre
+    Cette fonction n'est définie que pour être utilisée dans la fonction est_premier() définie ci-dessous. Elle ne sera pas utilisée ailleurs dans l'exercice"""
     return [i for i in range(1, n + 1) if n % i == 0]
 
 def est_premier(n):
